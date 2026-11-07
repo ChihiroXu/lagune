@@ -1,0 +1,34 @@
+# Local and restricted spatial data; store these outside the repository
+/data/
+/packages/conflux/data/
+**/local-data/
+**/private-data/
+**/processed-data/
+**/outputs/
+
+# Only this dedicated directory may contain small, reviewed test fixtures
+**/fixtures/
+!/packages/conflux/tests/fixtures/
+!/packages/conflux/tests/fixtures/**
+
+# Python environments, caches, and build artifacts
+.venv/
+__pycache__/
+*.py[cod]
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# JavaScript dependencies and static-site build output
+node_modules/
+.astro/
+website/dist/
+
+# Local configuration and operating-system files
+.env
+.env.*
+!/.env.example
+.DS_Store
+Thumbs.db

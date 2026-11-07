@@ -1,0 +1,21 @@
+research_id: LAGUNE-EXAMPLE-0001
+title: Synthetic neighborhood accessibility example
+category: spatial_analysis
+status: proposed
+methods:
+  - Synthetic network-distance demonstration
+data_sources:
+  - source_id: synthetic-network
+    citation: "LAGUNE synthetic example network, generated for documentation."
+    access_date: "2026-11-07"
+    license: "CC0-1.0"
+outputs:
+  - output_id: accessibility-map
+    kind: map
+    uri: outputs/example/accessibility-map.png
+    description: "Illustrative output location only; no generated map is included."
+provenance:
+  created_at: "2026-11-07T00:00:00Z"
+  contributors:
+    - LAGUNE
+  notes: "Synthetic metadata example; no real geographic observations or datasets."

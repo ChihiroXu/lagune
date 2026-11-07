@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "lagune-conflux"
+version = "0.1.0"
+description = "Lightweight spatial research foundations for LAGUNE"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.10,<3",
+    "typer>=0.12,<1",
+]
+
+[project.scripts]
+conflux = "conflux.cli:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/conflux"]

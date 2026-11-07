@@ -1,0 +1,106 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: urn:lagune:schema:research-record
+title: LAGUNE research record
+description: Metadata and provenance for one LAGUNE research activity.
+type: object
+additionalProperties: false
+required:
+  - research_id
+  - title
+  - category
+  - status
+  - methods
+  - data_sources
+  - outputs
+  - provenance
+properties:
+  research_id:
+    type: string
+    pattern: "^LAGUNE-[A-Z0-9]+-[0-9]{4,}$"
+  title:
+    type: string
+    minLength: 1
+  category:
+    type: string
+    minLength: 1
+    description: Controlled research category; define the vocabulary in INSIGHTS documentation.
+  status:
+    type: string
+    enum:
+      - proposed
+      - in_progress
+      - completed
+      - archived
+  methods:
+    type: array
+    items:
+      type: string
+      minLength: 1
+  data_sources:
+    type: array
+    items:
+      type: object
+      additionalProperties: false
+      required:
+        - source_id
+        - citation
+        - access_date
+      properties:
+        source_id:
+          type: string
+          minLength: 1
+        citation:
+          type: string
+          minLength: 1
+        uri:
+          type: string
+          format: uri
+        access_date:
+          type: string
+          format: date
+        license:
+          type: string
+        notes:
+          type: string
+  outputs:
+    type: array
+    items:
+      type: object
+      additionalProperties: false
+      required:
+        - output_id
+        - kind
+        - uri
+      properties:
+        output_id:
+          type: string
+          minLength: 1
+        kind:
+          type: string
+          minLength: 1
+        uri:
+          type: string
+          minLength: 1
+          description: Stable external reference or path relative to LAGUNE_DATA_DIR.
+        description:
+          type: string
+  provenance:
+    type: object
+    additionalProperties: false
+    required:
+      - created_at
+      - contributors
+    properties:
+      created_at:
+        type: string
+        format: date-time
+      updated_at:
+        type: string
+        format: date-time
+      contributors:
+        type: array
+        items:
+          type: string
+          minLength: 1
+      notes:
+        type: string
