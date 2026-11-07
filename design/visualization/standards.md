@@ -9,4 +9,4 @@ Charts and other non-map visualizations must communicate the underlying evidence
 - Maintain readable labels and contrast, and do not encode essential distinctions with color alone.
 - Provide concise explanatory text or an equivalent description when publishing visualizations.
 
-Shared color and typography should follow the semantic tokens in `design/tokens/` once established.
+Shared color and typography should follow the semantic tokens in `design/styles/tokens.css`, as documented in the LAGUNE visual system. Select data palettes independently and appropriately for the data.
