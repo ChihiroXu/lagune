@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" role="img" aria-labelledby="title desc">
+  <title id="title">LAGUNE Logo Concept A — Contour</title>
+  <desc id="desc">A restrained interpretation of the reference lagoon, with calmer tidal curves and an even circular profile.</desc>
+  <defs>
+    <clipPath id="contour">
+      <path d="M250 74
+        C302 73 353 91 388 126
+        C416 154 426 193 422 237
+        C427 280 415 319 391 352
+        C363 391 326 415 284 422
+        C239 429 198 420 162 400
+        C124 377 93 340 81 299
+        C70 261 75 216 94 174
+        C118 124 169 79 227 75
+        C235 74 242 74 250 74 Z"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#contour)">
+    <path fill="#285C59" d="M60 60H440V440H60Z"/>
+    <path fill="#72A69A" d="M60 157
+      C103 149 139 154 174 169
+      C210 185 233 200 265 207
+      C298 214 328 204 359 188
+      C388 173 412 162 440 160
+      L440 229
+      C389 236 343 250 298 251
+      C260 252 233 238 198 225
+      C156 209 111 202 60 210 Z"/>
+    <path fill="#DCE8DF" d="M60 218
+      C109 208 151 215 198 232
+      C232 244 260 259 299 259
+      C344 259 389 246 440 236
+      L440 311
+      C389 323 347 337 302 340
+      C258 343 225 329 188 308
+      C147 285 105 267 60 277 Z"/>
+    <path fill="#E9DFC9" d="M60 48H440V148
+      C406 153 379 167 349 182
+      C319 197 291 203 261 196
+      C229 189 205 171 174 156
+      C140 139 103 138 60 145 Z"/>
+    <path fill="#FFFFFF" d="M60 143
+      C103 136 140 140 175 155
+      C207 170 232 188 263 195
+      C294 202 322 194 352 179
+      C382 164 408 151 440 146
+      L440 159
+      C411 162 386 174 360 189
+      C329 206 299 215 264 208
+      C229 201 205 182 171 167
+      C138 152 102 149 60 156 Z"/>
+    <path fill="#FFFFFF" d="M60 206
+      C111 198 155 206 199 223
+      C234 237 260 251 299 252
+      C344 252 390 237 440 229
+      L440 241
+      C389 249 344 264 299 264
+      C259 264 232 248 195 234
+      C151 217 109 210 60 219 Z"/>
+    <path fill="#C18B68" d="M274 334
+      C302 315 329 300 354 290
+      C380 280 401 280 420 287
+      C416 307 410 324 400 339
+      C372 348 343 350 313 347
+      C296 345 283 340 274 334 Z"/>
+    <path fill="#FFFFFF" d="M60 268
+      C106 262 147 278 190 300
+      C226 320 257 338 299 338
+      C342 338 385 323 440 303
+      L440 315
+      C384 337 341 351 298 351
+      C253 351 222 333 184 311
+      C143 288 106 273 60 281 Z"/>
+    <path fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" d="M60 150
+      C103 143 140 145 174 160
+      C207 175 232 193 263 200
+      C294 207 322 198 352 183
+      C382 168 408 155 440 152"/>
+    <path fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" d="M60 213
+      C111 202 153 210 197 226
+      C232 240 260 255 299 255
+      C344 255 390 241 440 235"/>
+    <path fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" d="M60 277
+      C105 267 147 285 188 308
+      C225 329 258 343 302 340
+      C347 337 389 323 440 311"/>
+  </g>
+</svg>

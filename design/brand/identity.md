@@ -1,17 +1,7 @@
 # Brand identity
 
-## Name and descriptor
-
 Use **LAGUNE** as the platform name and **Spatial Intelligence & Research** as its descriptor. Preserve the names of the four platform areas: CONFLUX, INSIGHTS, DESIGN, and WEBSITE.
 
-## Positioning
+LAGUNE presents documented methods, attributable sources, and contextual interpretation—not a generic AI startup or autonomous decision-maker. Write clearly and precisely; distinguish evidence from interpretation, state limitations, and explain technical terms for the intended audience.
 
-LAGUNE is a research platform for investigating spatial questions and communicating evidence. Present it as a place for documented methods, attributable sources, and contextual interpretation—not as a generic AI startup or an autonomous decision-maker.
-
-## Voice
-
-Write clearly and precisely. Distinguish evidence from interpretation, state limitations, and avoid claims of certainty that the research does not support. Explain technical terms for the intended audience.
-
-## Identity assets
-
-No logo, symbol, or final color palette is established by this foundation. Add identity assets only after their rationale and accessible usage guidance are documented.
+The approved logo, palette, and visual usage rules are maintained in the [LAGUNE visual system](LAGUNE_VISUAL_SYSTEM.md), the canonical brand specification. Do not define duplicate token or component values here.

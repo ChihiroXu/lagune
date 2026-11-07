@@ -10,4 +10,4 @@ Maps must support interpretation of the research rather than decoration.
 - Include source attribution and relevant methodological notes with each published map.
 - Consider color-vision accessibility, contrast, and a non-color cue where practical.
 
-There is no platform-wide default projection or palette until research contexts and the DESIGN token system support an explicit decision.
+There is no platform-wide default projection or data palette; choose these for the research context rather than treating brand colors as a default map ramp.

@@ -1,4 +1,7 @@
 ---
+import "../../../design/styles/components.css";
+import logo from "../../../design/brand/LAGUNE_logo.svg";
+
 const areas = [
   {
     name: "CONFLUX",
@@ -24,20 +27,25 @@ const areas = [
     <title>LAGUNE — Spatial Intelligence & Research</title>
   </head>
   <body>
-    <main>
-      <p class="eyebrow">Spatial Intelligence &amp; Research</p>
-      <h1>LAGUNE</h1>
-      <p class="intro">
-        A research platform for investigating spatial questions and communicating evidence with
-        documented methods, attributable sources, and contextual interpretation.
-      </p>
-      <section aria-labelledby="areas-heading">
-        <h2 id="areas-heading">Research platform</h2>
-        <ul>
+    <main class="lagune-container lagune-section">
+      <header class="intro-panel lagune-tidal-panel">
+        <img class="brand-mark" src={logo.src} alt="LAGUNE" />
+        <p class="eyebrow">Spatial Intelligence &amp; Research</p>
+        <h1 class="lagune-heading lagune-heading--display">LAGUNE</h1>
+        <p class="intro lagune-copy">
+          A research platform for investigating spatial questions and communicating evidence with
+          documented methods, attributable sources, and contextual interpretation.
+        </p>
+      </header>
+      <section class="research-section" aria-labelledby="areas-heading">
+        <h2 id="areas-heading" class="lagune-heading lagune-heading--section">Research platform</h2>
+        <ul class="lagune-grid lagune-grid--research">
           {areas.map((area) => (
-            <li>
-              <h3>{area.name}</h3>
-              <p>{area.description}</p>
+            <li class="lagune-card">
+              <div class="lagune-card__body">
+                <h3 class="lagune-heading">{area.name}</h3>
+                <p class="lagune-copy">{area.description}</p>
+              </div>
             </li>
           ))}
         </ul>
@@ -47,59 +55,44 @@ const areas = [
 </html>
 
 <style>
-  :root {
-    color: #172a2a;
-    background: #f5f7f4;
-    font-family: "Segoe UI", sans-serif;
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
+  .intro-panel {
+    padding: clamp(1.5rem, 5vw, 4rem);
   }
 
-  body {
-    margin: 0;
-  }
-
-  main {
-    box-sizing: border-box;
-    margin: 0 auto;
-    max-width: 64rem;
-    padding: clamp(2rem, 8vw, 6rem) 1.5rem;
+  .brand-mark {
+    width: 5rem;
+    height: auto;
   }
 
   .eyebrow {
-    color: #45635e;
-    font-size: 0.8rem;
-    font-weight: 700;
-    letter-spacing: 0.12em;
+    color: var(--lagune-ocean);
+    font-size: var(--lagune-text-sm);
+    font-weight: 600;
     text-transform: uppercase;
   }
 
-  h1 {
-    font-size: clamp(3rem, 10vw, 6rem);
-    letter-spacing: 0.04em;
-    margin: 1rem 0;
-  }
-
   .intro {
-    font-size: clamp(1.1rem, 2.5vw, 1.4rem);
-    line-height: 1.6;
-    max-width: 48rem;
+    font-size: var(--lagune-text-lg);
   }
 
-  section {
-    margin-top: 4rem;
+  .research-section {
+    margin-top: var(--lagune-space-16);
   }
 
-  ul {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
-    list-style: none;
+  .research-section h2 {
+    margin-bottom: var(--lagune-space-6);
+  }
+
+  .lagune-grid {
     padding: 0;
+    list-style: none;
   }
 
-  li {
-    border-top: 2px solid #45635e;
-    padding-top: 0.75rem;
+  .lagune-card h3 {
+    font-size: var(--lagune-text-lg);
+  }
+
+  .lagune-card p {
+    margin-bottom: 0;
   }
 </style>

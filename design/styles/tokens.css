@@ -1,0 +1,55 @@
+:root {
+  color-scheme: light;
+
+  --lagune-ocean: #285c59;
+  --lagune-ocean-hover: #214b49;
+  --lagune-sea-glass: #72a69a;
+  --lagune-mist: #dce8df;
+  --lagune-sandstone: #e9dfc9;
+  --lagune-earth: #c18b68;
+  --lagune-forest: #283735;
+  --lagune-background: #f7f7f2;
+  --lagune-background-subtle: #eef3ef;
+  --lagune-surface: #ffffff;
+  --lagune-border: #dce3de;
+  --lagune-text-muted: #657b77;
+  --lagune-success: #285c59;
+  --lagune-warning: #9a603f;
+  --lagune-error: #a33d32;
+  --lagune-info: #285c59;
+
+  --lagune-font-display: "Manrope", "Inter", sans-serif;
+  --lagune-font-body: "Inter", "Source Han Sans SC", "Noto Sans CJK SC", sans-serif;
+  --lagune-font-editorial: "Source Han Serif SC", "Noto Serif CJK SC", Georgia, serif;
+  --lagune-font-mono: "JetBrains Mono", Consolas, monospace;
+
+  --lagune-text-xs: 0.75rem;
+  --lagune-text-sm: 0.875rem;
+  --lagune-text-base: 1rem;
+  --lagune-text-lg: 1.125rem;
+  --lagune-text-xl: 1.375rem;
+  --lagune-text-2xl: 1.75rem;
+  --lagune-text-3xl: clamp(2rem, 3.2vw, 3rem);
+  --lagune-text-display: clamp(2.25rem, 5vw, 4rem);
+
+  --lagune-space-1: 0.25rem;
+  --lagune-space-2: 0.5rem;
+  --lagune-space-3: 0.75rem;
+  --lagune-space-4: 1rem;
+  --lagune-space-6: 1.5rem;
+  --lagune-space-8: 2rem;
+  --lagune-space-12: 3rem;
+  --lagune-space-16: 4rem;
+  --lagune-space-20: 5rem;
+
+  --lagune-container: 80rem;
+  --lagune-page-gutter: clamp(1rem, 4vw, 3rem);
+  --lagune-grid-gap: clamp(1rem, 2vw, 2rem);
+  --lagune-radius-sm: 0.375rem;
+  --lagune-radius-md: 0.75rem;
+  --lagune-radius-lg: 1rem;
+  --lagune-shadow-card: 0 2px 8px rgb(40 55 53 / 6%);
+  --lagune-focus-ring: 0 0 0 3px rgb(114 166 154 / 40%);
+  --lagune-motion-fast: 140ms ease;
+  --lagune-motion-base: 220ms ease;
+}

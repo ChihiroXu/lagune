@@ -1,5 +1,5 @@
 # Design tokens
 
-Keep shared visual values in this area and refer to them by semantic role rather than duplicating raw values across components and figures. Organize tokens for color, typography, spacing, and line/shape treatment as those systems are established.
+The canonical token values are defined in [`../styles/tokens.css`](../styles/tokens.css) and their meaning and accessible usage are documented in [`../brand/LAGUNE_VISUAL_SYSTEM.md`](../brand/LAGUNE_VISUAL_SYSTEM.md). Refer to these semantic tokens instead of duplicating raw values in components, figures, or the website.
 
-No palette or typeface is approved yet. Record token meaning, contrast expectations, and intended use alongside values when a visual identity is selected. Avoid introducing framework-specific token formats until the consuming tools are known.
+Update the canonical stylesheet and visual-system documentation together when changing a token. Data visualizations must still choose palettes appropriate to their data; brand colors do not define scientific map or chart ramps.
